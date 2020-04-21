@@ -16,7 +16,8 @@
     <?php include("pages/banner.php")?>
 
     <!--Cards en PHP-->
-    <?php include ("pages/posts.php") ?>
+    <?php include ("pages/bdd.php") ?>
+    
 
     <!--Cards en dur-->
     <div class="container ">
