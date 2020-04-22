@@ -17,62 +17,14 @@
 
     <!--Cards en PHP-->
 
-    <?php include("pages/bdd.php")?>
+    
 
     <!--Cards en dur-->
     <div class="container ">
         <div class="row">
-            <div class="col-md-4 myCard">
-                <img src="img/fb.png" alt="">
-                <h1>Decription</h1>
-                <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione perferendis cum dolorum odit porro
-                    vero quam? Maxime assumenda quis dicta vitae quaerat perspiciatis officia esse cumque fugiat.
-                    Libero, officiis. Tenetur!</p>
-            </div>
 
-            <div class="col-md-4 myCard">
-                <img src="img/tw.png" alt="">
-                <h1>Decription</h1>
-                <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione perferendis cum dolorum odit porro
-                    vero quam? Maxime assumenda quis dicta vitae quaerat perspiciatis officia esse cumque fugiat.
-                    Libero, officiis. Tenetur!</p>
-
-            </div>
-
-            <div class="col-md-4 myCard">
-                <img src="img/inst.png" alt="">
-                <h1>Decription</h1>
-                <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione perferendis cum dolorum odit porro
-                    vero quam? Maxime assumenda quis dicta vitae quaerat perspiciatis officia esse cumque fugiat.
-                    Libero, officiis. Tenetur!</p>
-            </div>
-
-            <div class="col-md-4 myCard">
-                <img src="img/pin.png" alt="">
-                <h1>Decription</h1>
-                <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione perferendis cum dolorum odit porro
-                    vero quam? Maxime assumenda quis dicta vitae quaerat perspiciatis officia esse cumque fugiat.
-                    Libero, officiis. Tenetur!</p>
-            </div>
-
-            <div class="col-md-4 myCard">
-                <img src="img/sc.png" alt="">
-                <h1>Decription</h1>
-                <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione perferendis cum dolorum odit porro
-                    vero quam? Maxime assumenda quis dicta vitae quaerat perspiciatis officia esse cumque fugiat.
-                    Libero, officiis. Tenetur!</p>
-            </div>
-
-            <div class="col-md-4 myCard">
-                <img src="img/wa.png" alt="">
-                <h1>Decription</h1>
-                <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione perferendis cum dolorum odit porro
-                    vero quam? Maxime assumenda quis dicta vitae quaerat perspiciatis officia esse cumque fugiat.
-                    Libero, officiis. Tenetur!</p>
-            </div>
-
+        <?php include("pages/postsByBdd.php")?> 
 
         </div>
-    </div>
     </div>
 </body>
