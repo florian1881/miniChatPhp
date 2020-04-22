@@ -1,8 +1,7 @@
 <?php
 try
 {
-    $bdd = new PDO('mysql:host=sql.free.fr;dbname=florian_perez_dev;charset=utf8','florian.perez.dev','jmvst1881',
-    array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+    $bdd = new PDO('mysql:host=sql307.hebergratuit.net;dbname=heber_25599695_article;charset=utf8','heber_25599695','5Lb2d10rQu');
     if ($bdd) {
         echo " connexion ok";
     }
@@ -13,7 +12,7 @@ catch (Exception $e)
 }
 
 // On récupère tout le contenu de la table article
-/*$reponse = $bdd->query('SELECT * FROM articles');
+$reponse = $bdd->query('SELECT * FROM articles');
 
 
 // On affiche chaque entrée une à une
@@ -32,5 +31,5 @@ while ($donnees = $reponse->fetch())
 
 $reponse->closeCursor(); // Termine le traitement de la requête
 
-*/
+
 ?>
