@@ -1,7 +1,7 @@
 <?php
 try
 {
-    $bdd = new PDO('mysql :host=sql.free.fr;dbname=florian_perez_dev;charset=utf8', 'florian.perez.dev', 'jmvst1881',
+    $bdd = new PDO('mysql:host=sql.free.fr;dbname=florian_perez_dev;charset=utf8', 'florian.perez.dev', 'jmvst1881',
     array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
     if ($bdd) {
         echo " connexion ok";
