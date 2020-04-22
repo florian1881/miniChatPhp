@@ -23,7 +23,7 @@
     <div class="container ">
         <div class="row">
 
-        <?php include("pages/postsByBdd.php")?> 
+        <?php include("pages/posts.php")?> 
 
         </div>
     </div>
