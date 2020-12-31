@@ -8,6 +8,7 @@ $login="heber_25599695";
 $pwd="5Lb2d10rQu";
 
 // Mot de passe en clair mais base de donnée non utilisée et aucune données sensibles sur cette base. 
+// update : site désactivé
 
 //to do : insert value in pdo request 
 
